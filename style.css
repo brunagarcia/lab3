@@ -3,6 +3,12 @@ body{
   background-color: aliceblue;
 }
 
+h2{
+  margin: 5px 20px;
+  font-family: sans-serif;
+  color: rgb(34, 123, 212);
+}
+
 /* Header */
 
 #header{
@@ -38,9 +44,9 @@ body{
 /* Side menu */
 
 #sideMenu{
-  border: solid black;
+  /* border: solid black; */
   display: inline-block;
-  width: 180px;
+  width: 18%;
   padding: 30px;
 }
 
@@ -54,4 +60,24 @@ body{
 a{
   text-decoration: none;
   color: inherit;
+}
+
+/* Content */
+#content{
+  /* border: solid green; */
+  display: inline-block;
+  margin: 0px 1px;
+  width: 69%;
+  height: 300px;
+}
+
+.courses{
+  display: inline-block;
+  border: solid thin black;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100px;
+  height: 100px;
+  margin: 40px 20px 0px 20px;
 }
